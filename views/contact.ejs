@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ejs - Main Page</title>
+    <title>Contact</title>
   </head>
   <body>
     <header>
@@ -15,22 +15,7 @@
       </nav>
     </header>
     <main>
-      <form action="/" method="post">
-        <input
-          type="text"
-          placeholder="Programming Language?"
-          name="pLanguage"
-        />
-        <button type="submit">Add</button>
-      </form>
-
-      <ul>
-        <% if(pLan.length > 0){ %> <% for (let x=0; x< pLan.length; x++){ %>
-        <li><%= pLan[x] %></li>
-        <% } %> <% }else{ %>
-        <p>No Data Found!</p>
-        <% } %>
-      </ul>
+      <h1>Contact</h1>
     </main>
     <footer>
       <p><i>All rights reserved by &copy; Md Salahuddin Khan</i></p>

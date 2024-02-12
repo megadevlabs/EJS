@@ -12,6 +12,10 @@ app.get('/', (req, res) => {
   // res.send('Hello World!');
   res.render('index', { pLan: pLanguages });
 });
+app.get('/contact', (req, res) => {
+  // res.send('Hello World!');
+  res.render('contact', {});
+});
 
 app.post('/', (req, res) => {
   const pLanguage = req.body.pLanguage;
